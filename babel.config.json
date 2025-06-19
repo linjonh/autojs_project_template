@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "android": "4"
+        },
+        "bugfixes": true
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-optional-catch-binding"
+  ]
+}
