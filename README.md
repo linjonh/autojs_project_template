@@ -46,7 +46,8 @@
     3、esbuild，babel
         
     这个是为了把es6语法的module方式编译为兼容的非es6的commonjs语法格式
-    
+    4、rimraf
+    跨平台的删除命令
 ## 创建项目模版
 直接克隆本项目：
 ```
@@ -55,4 +56,4 @@ npm install
 ```
 然后即可在src目录下开发autojs代码
 
-> package.json文件配置了脚本运行命令，可以根据自己的目录
+> package.json文件配置了脚本运行命令，可以根据自己的安装设备目录修改路径
