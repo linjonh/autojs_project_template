@@ -57,3 +57,9 @@ npm install
 然后即可在src目录下开发autojs代码
 
 > package.json文件配置了脚本运行命令，可以根据自己的安装设备目录修改路径
+
+## gitignore模版生成
+```bash
+#在https://www.toptal.com/developers/gitignore/api/路径后面添加语言数组 如vscode,linux,node
+curl -L -s https://www.toptal.com/developers/gitignore/api/vscode,linux,node -o .gitignore
+```
